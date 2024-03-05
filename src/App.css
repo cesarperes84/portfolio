@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .tag {
+        @apply
+        bg-plus-gray
+        rounded-md
+        py-1
+        px-2
+        md:py-2
+        md:px-4
+        hover:bg-orange-red
+        hover:text-white
+        cursor-pointer
+        transition-all
+        mt-1
+        mr-1
+        md:mt-2
+        md:mr-2
+        text-sm
+        md:text-xl
+        font-mono
+        inline-flex
+        md:h-[40px]
+        hover:scale-110
+    }
+    
+    .img-responsive {
+        @apply
+        w-full
+        rounded-md
+        p-4
+    }
+    .contact-icon {
+        @apply
+        hover:scale-105
+        transition-all
+    }
+    .portfolio-box {
+        @apply
+        relative
+    }
+    .portfolio-box-caption {
+        @apply
+        p-4
+        text-center
+        text-gray-300
+        bg-plus-gray
+        rounded-b-md
+        m-4
+        -bottom-2
+        absolute
+        h-[142px]
+        hover:h-[252px]
+        hover:bg-orange-red
+        hover:text-lg
+        hover:font-bold
+        hover:text-white
+        transition-all
+        min-w-[calc(100%-2rem)]
+    }
+    .project-name {
+        @apply
+        flex-grow
+    }
+    .project-category:nth-child(n) {
+        @apply
+        mt-2
+        text-sm
+    }
+    
+   
+  }
