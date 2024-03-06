@@ -65,7 +65,7 @@ const App: React.FC = () => {
         </nav>
       </aside>
     
-      <main className="sm:w-full md:w-4/5 px-4 md:px-16 py-12 bg-black scroll-smooth" style={{ backgroundImage: "linear-gradient(rgba(34,34,34,0), rgba(0,0,0,0)), url(src/4NB4.gif)", backgroundPosition: 'top right', backgroundRepeat: 'no-repeat',  backgroundSize: '600px 800px', overflowY: 'auto' }}>
+      <main className="sm:w-full md:w-4/5 px-4 md:px-16 py-12 bg-black scroll-smooth" style={{ backgroundImage: "linear-gradient(rgba(34,34,34,0), rgba(0,0,0,0)), url(https://res.cloudinary.com/dqaojtmfr/image/upload/v1709747084/portfolio/4NB4.gif)", backgroundPosition: 'top right', backgroundRepeat: 'no-repeat',  backgroundSize: '600px 800px', overflowY: 'auto' }}>
 
         <header className="mb-20" id="skills" >
           <h2 className="font-mono text-white font-bold text-4xl  md:text-8xl mb-1 md:pb-4">Oi, </h2>
@@ -99,7 +99,7 @@ const App: React.FC = () => {
             <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://connectio.vercel.app/", '_blank')} className="portfolio-box">
-                        <img src="/images/connect-io.jpeg" className="img-responsive" alt="Connnect.io" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746737/portfolio/connect-io" className="img-responsive" alt="Connnect.io" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -114,7 +114,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://novel-app-web.vercel.app/", '_blank')} className="portfolio-box">
-                        <img src="/images/novel.jpeg" className="img-responsive" alt="Novel" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746737/portfolio/novel" className="img-responsive" alt="Novel" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -129,7 +129,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://www.decoddr.cc/", '_blank')} className="portfolio-box">
-                        <img src="/images/decoddr.jpeg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746737/portfolio/decoddr" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -144,7 +144,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open('http://www.fortniteplayerstats.com', '_blank')} className="portfolio-box">
-                        <img src="/images/fortnite.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/fortnite" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -159,7 +159,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open('https://covid19-cperes.vercel.app/', '_blank')} className="portfolio-box">
-                        <img src="/images/corona.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/corona" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -174,7 +174,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.cperes.com.br/jogos/bee", '_blank')} className="portfolio-box">
-                        <img src="/images/bee.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/bee" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -189,7 +189,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.esocomprar.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709745675/rm85wqo1xq3cjxzjqe9z.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/esocomprar" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -204,7 +204,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.pifferveiculos.com.br", '_blank')} className="portfolio-box">
-                        <img src="/images/piffer.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/piffer" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.cameliaflores.com.br", '_blank')} className="portfolio-box">
-                        <img src="/images/camelia.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/camelia" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -234,7 +234,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.dogwalk.com.br", '_blank')} className="portfolio-box">
-                        <img src="/images/dogwalk.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/dogwalk" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -249,7 +249,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.divecom.com.br", '_blank')} className="portfolio-box">
-                        <img src="/images/divecom.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/divecom.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -264,7 +264,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.lafloricultura.com.br", '_blank')} className="portfolio-box">
-                        <img src="/images/lafloricultura.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/lafloricultura" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
