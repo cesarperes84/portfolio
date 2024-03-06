@@ -99,7 +99,7 @@ const App: React.FC = () => {
             <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://connectio.vercel.app/", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/connect-io.jpeg" className="img-responsive" alt="Connnect.io" />
+                        <img src="/images/connect-io.jpeg" className="img-responsive" alt="Connnect.io" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -114,7 +114,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://novel-app-web.vercel.app/", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/novel.jpeg" className="img-responsive" alt="Novel" />
+                        <img src="/images/novel.jpeg" className="img-responsive" alt="Novel" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -129,7 +129,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://www.decoddr.cc/", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/decoddr.jpeg" className="img-responsive" alt="" />
+                        <img src="/images/decoddr.jpeg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -144,7 +144,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open('http://www.fortniteplayerstats.com', '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/fortnite.jpg" className="img-responsive" alt="" />
+                        <img src="/images/fortnite.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -159,7 +159,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open('https://covid19-cperes.vercel.app/', '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/corona.jpg" className="img-responsive" alt="" />
+                        <img src="/images/corona.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -174,7 +174,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.cperes.com.br/jogos/bee", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/bee.jpg" className="img-responsive" alt="" />
+                        <img src="/images/bee.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -189,7 +189,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.esocomprar.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/esocomprar.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709745675/rm85wqo1xq3cjxzjqe9z.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -204,7 +204,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.pifferveiculos.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/piffer.jpg" className="img-responsive" alt="" />
+                        <img src="/images/piffer.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -219,7 +219,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.cameliaflores.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/camelia.jpg" className="img-responsive" alt="" />
+                        <img src="/images/camelia.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -234,7 +234,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.dogwalk.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/dogwalk.jpg" className="img-responsive" alt="" />
+                        <img src="/images/dogwalk.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -249,7 +249,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.divecom.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/divecom.jpg" className="img-responsive" alt="" />
+                        <img src="/images/divecom.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -264,7 +264,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.lafloricultura.com.br", '_blank')} className="portfolio-box">
-                        <img src="http://www.cperes.com.br/images/portfolio_thumbs/lafloricultura.jpg" className="img-responsive" alt="" />
+                        <img src="/images/lafloricultura.jpg" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
