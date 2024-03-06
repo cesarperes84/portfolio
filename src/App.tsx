@@ -38,9 +38,9 @@ const App: React.FC = () => {
                   </a>
                 </li>
                 <li className="mb-2 md:mb-20">
-                  <a href="http://www.cperes.com.br/blog" target="_blank"  className="text-white font-mono hover:underline">
+                  {/* <a href="http://www.cperes.com.br/blog" target="_blank"  className="text-white font-mono hover:underline">
                     <span>BLOG</span>
-                  </a>
+                  </a> */}
                 </li>
                 <li className="mb-2">
                   <div className="text-right md:flex-col inline-flex md:flex gap-2 md:mb-5">
@@ -249,7 +249,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.divecom.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/divecom.jpg" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746357/portfolio/dive" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
@@ -264,7 +264,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.lafloricultura.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/lafloricultura" className="img-responsive" alt="" />
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/la-floricultura" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">
                                 <div className="project-name">
