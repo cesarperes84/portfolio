@@ -1,13 +1,7 @@
-{
-  "version": 2,
-  "builds": [
+
     {
-      "src": "src/main.tsx",
-      "use": "@vercel/react"
-    }
-  ],
-  "routes": [
-    { "src": "/", "dest":  "src/main.tsx" },
-    { "src": "/bee", "dest":  "/bee/index.html" },
-  ]
-}
+        "rewrites": [
+          { "source": "/bee", "destination": "https://www.cperes.com.br/bee" },
+          { "source": "/(.*)", "destination": "/" }
+        ]
+      }
