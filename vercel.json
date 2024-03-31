@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "src/main.tsx",
+      "use": "@vercel/react"
+    }
+  ],
   "routes": [
     { "src": "/", "dest":  "src/main.tsx" },
     { "src": "/bee", "dest":  "/bee/index.html" },
