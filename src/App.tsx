@@ -173,7 +173,7 @@ const App: React.FC = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open("bee/", '_blank')} className="portfolio-box">
+                    <div onClick={() => window.open("bee/index.html", '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/bee" className="img-responsive" alt="" />
                         <div className="portfolio-box-caption">
                             <div className="portfolio-box-caption-content">

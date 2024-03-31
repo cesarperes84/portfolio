@@ -1,7 +1,0 @@
-
-    {
-        "rewrites": [
-          { "source": "/bee", "destination": "https://www.cperes.com.br/bee" },
-          { "source": "/(.*)", "destination": "/" }
-        ]
-      }
