@@ -97,6 +97,21 @@ const App: React.FC = () => {
                 <p className="md:text-xl font-mono">Conheça um pouco dos projetos que participei ao longo dos últimos anos</p>
             </div>
             <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
+            <div className="w-full md:w-1/3">
+                    <div onClick={() => window.open("https://daily-games.vercel.app/", '_blank')} className="portfolio-box">
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/daily-games" className="img-responsive" alt="" />
+                        <div className="portfolio-box-caption">
+                            <div className="portfolio-box-caption-content">
+                                <div className="project-name">
+                                   Agregador de jogos diários. 2023
+                                </div>
+                                <div className="project-category text-faded">
+                                    Layout, HTML, CSS, Javascript, NextJs, ReactJs, TailwindCss
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("https://connectio.vercel.app/", '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746737/portfolio/connect-io" className="img-responsive" alt="Connnect.io" />
@@ -257,21 +272,6 @@ const App: React.FC = () => {
                                 </div>
                                 <div className="project-category text-faded">
                                     HTML, Jquery, CSS, Wordpress
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open("http://www.lafloricultura.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/la-floricultura" className="img-responsive" alt="" />
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    Ecommerce sobre Floricultura no RJ. 2019
-                                </div>
-                                <div className="project-category text-faded">
-                                    LAYOUT, HTML5, CSS, JQuery, PHP, MYSQL
                                 </div>
                             </div>
                         </div>
