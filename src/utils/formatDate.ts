@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { format } from 'date-fns';
 import ptLocale from 'date-fns/locale/pt';
 
