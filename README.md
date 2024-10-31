@@ -1,52 +1,36 @@
-<h2>REACT+VITE+TAILWIND Starter Project</h2>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
-<h3> 🛠 &nbsp;Tech Stack</h3>
+First, run the development server:
 
-- &nbsp;
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
-  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
-  ![Vite](https://img.shields.io/badge/-Vite-333333?style=flat&logo=vite)
-  ![Tailwind](https://img.shields.io/badge/-Tailwind-333333?style=flat&logo=tailwindcss)
-
-
-<br/>
-
-# ABOUT
-<p>
-This project will provide the basic setup for a scalabe React App. It includes:- VITE for increadibly fast and lean development, TAILWIND for beautiful and easy styling.
-</p>
-
-<br/>
-
-# STEPS TO GET GOING
-
-- You can use it as a template by clicking on the `Use this template` button. This will simply make a repository in you github space(Will ask for the repo name just as normal repo) with this starter code.
-
-- Once the repository has been created. Just clone it to you local directory.
-
-- Now change your current directory to the project root.
-
-```
-cd your-repo-name
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-- Next, install the packages.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-yarn
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Now you can run the app by typing in the following command
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```
-yarn run dev
-```
+## Learn More
 
-- Your app is ready to be opened on
+To learn more about Next.js, take a look at the following resources:
 
-```
-http://localhost:3000/
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
