@@ -31,12 +31,12 @@ const Home = () => (
           </div>
         </section>
 
-        <section id="project" className="text-gray-300 mb-14">
+        <section id="games" className="text-gray-300 mb-14">
           <div className="">
             <div className="mb-10 md:w-2/3">
                 <h2 className="text-2xl md:text-4xl font-bold font-mono text-orange-red">Projetos</h2>
                 <hr className="border-b-4 border-orange-red mb-14 w-20" />
-                <p className="md:text-xl font-mono">Conheça um pouco dos projetos que participei ao longo dos últimos anos</p>
+                <p className="md:text-xl font-mono font-bold">GAMES</p>
             </div>
             <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
                 <div className="w-full md:w-1/3">
@@ -99,6 +99,7 @@ const Home = () => (
                         </div>
                     </div>
                 </div>
+                
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open('http://www.fortniteplayerstats.com', '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/fortnite" className="img-responsive" alt="" />
@@ -114,21 +115,7 @@ const Home = () => (
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open('https://covid19-cperes.vercel.app/', '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/corona" className="img-responsive" alt="" />
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    Estatísticas diárias da COVID19 no Brasil. 2020
-                                </div>
-                                <div className="project-category text-faded">
-                                    Layout, HTML, CSS, Javascript, NextJs, ReactJs, Amcharts, TypeScript, Material-UI, Axios
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("bee/index.html", '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/bee" className="img-responsive" alt="" />
@@ -144,6 +131,63 @@ const Home = () => (
                         </div>
                     </div>
                 </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="webapps" className="text-gray-300 mb-14">
+          <div className="">
+            <div className="mb-10 md:w-2/3">
+                {/* <h2 className="text-2xl md:text-4xl font-bold font-mono text-orange-red">Web Apps</h2> */}
+                {/* <hr className="border-b-4 border-orange-red mb-14 w-20" /> */}
+                <p className="md:text-xl font-mono font-bold">WEB APPS</p>
+            </div>
+            <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
+                
+                <div className="w-full md:w-1/3">
+                    <div onClick={() => window.open('http://street5.vercel.app', '_blank')} className="portfolio-box">
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1730905909/portfolio/street5" className="img-responsive" alt="" />
+                        <div className="portfolio-box-caption">
+                            <div className="portfolio-box-caption-content">
+                                <div className="project-name">
+                                    Web app que simula uma viagem de carro ao som de estações de rádios. 2021
+                                </div>
+                                <div className="project-category text-faded">
+                                    Layout, HTML, CSS, Javascript, NextJs, ReactJs, TypeScript, Material-UI, Axios
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full md:w-1/3">
+                    <div onClick={() => window.open('https://covid19-cperes.vercel.app/', '_blank')} className="portfolio-box">
+                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/corona" className="img-responsive" alt="" />
+                        <div className="portfolio-box-caption">
+                            <div className="portfolio-box-caption-content">
+                                <div className="project-name">
+                                    Estatísticas diárias da COVID19 no Brasil. 2020
+                                </div>
+                                <div className="project-category text-faded">
+                                    Layout, HTML, CSS, Javascript, NextJs, ReactJs, Amcharts, TypeScript, Material-UI, Axios
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </section>
+
+        <section id="websites" className="text-gray-300 mb-14">
+          <div className="">
+            <div className="mb-10 md:w-2/3">
+                {/* <h2 className="text-2xl md:text-4xl font-bold font-mono text-orange-red">Websites</h2> */}
+                {/* <hr className="border-b-4 border-orange-red mb-14 w-20" /> */}
+                <p className="md:text-xl font-mono font-bold">WEB SITES</p>
+            </div>
+            <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">                
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.esocomprar.com.br", '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/esocomprar" className="img-responsive" alt="" />
@@ -159,36 +203,7 @@ const Home = () => (
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open("http://www.pifferveiculos.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/piffer" className="img-responsive" alt="" />
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    Website catálogo de consessionária de automóveis. 2016
-                                </div>
-                                <div className="project-category text-faded">
-                                    HTML, Jquery, CSS, Wordpress
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open("http://www.cameliaflores.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/camelia" className="img-responsive" alt="" />
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    Ecommerce sobre Floricultura no RJ. 2018
-                                </div>
-                                <div className="project-category text-faded">
-                                    HTML5, CSS, JQuery, PHP, MYSQL
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div className="w-full md:w-1/3">
                     <div onClick={() => window.open("http://www.dogwalk.com.br", '_blank')} className="portfolio-box">
                         <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746358/portfolio/dogwalk" className="img-responsive" alt="" />
@@ -199,21 +214,6 @@ const Home = () => (
                                 </div>
                                 <div className="project-category text-faded">
                                     HTML5, CSS, JQuery, PHP, MYSQL
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full md:w-1/3">
-                    <div onClick={() => window.open("http://www.divecom.com.br", '_blank')} className="portfolio-box">
-                        <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1709746357/portfolio/dive" className="img-responsive" alt="" />
-                        <div className="portfolio-box-caption">
-                            <div className="portfolio-box-caption-content">
-                                <div className="project-name">
-                                    Website de catálogo de produtos de mergulho. 2016
-                                </div>
-                                <div className="project-category text-faded">
-                                    HTML, Jquery, CSS, Wordpress
                                 </div>
                             </div>
                         </div>

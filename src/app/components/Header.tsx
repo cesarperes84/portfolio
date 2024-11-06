@@ -35,11 +35,28 @@ const Header = () => {
                 <span>SKILLS</span>
                 </a>
             </li>
-            <li  className="mb-2">
+            {/* <li  className="mb-2">
                 <a href="/#project"  className="text-white font-mono hover:underline">
                 <span>PROJETOS</span>
                 </a>
+            </li> */}
+            <li  className="mb-2">
+                <a href="/#games"  className="text-white font-mono hover:underline">
+                <span>GAMES</span>
+                </a>
             </li>
+            <li  className="mb-2">
+                <a href="/#webapps"  className="text-white font-mono hover:underline">
+                <span>WEBAPPS</span>
+                </a>
+            </li>
+            <li  className="mb-2">
+                <a href="/#websites"  className="text-white font-mono hover:underline">
+                <span>WEBSITES</span>
+                </a>
+            </li>
+            
+            
             <li className="mb-2 md:mb-20">
                 <a href="/blog" className="text-white font-mono hover:underline">
                 <span>BLOG</span>
