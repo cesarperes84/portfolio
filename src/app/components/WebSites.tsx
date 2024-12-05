@@ -59,7 +59,7 @@ const WebSites = () => (
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/3">
+        {/* <div className="w-full md:w-1/3">
           <div
             onClick={() =>
               window.open("http://wikibbb.vercel.app", "_blank")
@@ -82,7 +82,7 @@ const WebSites = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="w-full md:w-1/3">
           <div
