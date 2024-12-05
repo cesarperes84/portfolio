@@ -1,10 +1,8 @@
 // @ts-nocheck
 import "server-only";
-import { fetchPages, fetchPageBySlug } from "../../../lib/notion";
-import { notFound } from "next/navigation";
+import { fetchPageBySlug } from "../../../lib/notion";
 import React from "react";
 import Header from "../../components/Header";
-import { headers } from 'next/headers';
 import formatDate from '../../../utils/formatDate';
 import DOMPurify from 'isomorphic-dompurify';
 
