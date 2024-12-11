@@ -1,0 +1,71 @@
+body {
+    background-color: #00BFFF;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+#btn {
+    margin-top: 20px;
+}
+#big-circle {
+    position: relative;
+    background: #00BFFF;
+    border: 20px solid #FFF;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#trajectory {
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+    margin: -70px 0 0px -20px;
+}
+#target {
+    background: #00BFFF;
+    border: 20px solid #FFF;
+    border-radius: 50%;
+    height: 80px;
+    margin: -30px 0 0 0;
+    position: relative;
+    width: 80px;
+    z-index: 1;
+}
+#bullet {
+    background:#FFCC00;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0px 0 40px;
+    position: absolute;
+}
+ 
+
+#tempo, #level {
+    font-size: 20px;
+    color: #FFF;
+    display: inline-block;
+}
+.wrapper-score {
+    height: 50px;
+    margin: 20px auto;
+    width: 190px;
+}
+.wrapper-game {
+    margin: 120px auto 0 auto;
+}
+
+.modal-content {
+    background-color: rgba(0,0,0,.0001) !important;
+    border: 0px;
+    margin-top: 40%;
+}
+.modal-body {
+    color: #FFF;
+    font-size: 42px;
+    text-align: center;
+}
+
+
