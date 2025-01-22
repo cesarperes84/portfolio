@@ -3,50 +3,27 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nabla&family=Zen+Dots&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Knewave&family=Poppins&display=swap"
       rel="stylesheet"
     />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
     <title>Bullet</title>
   </head>
-  <body style="background-color: #00bfff">
-    <div style="margin: 80px auto 0 auto; width: 320px">
-      <h1 style="font-family: Zen Dots; color: #fff; text-align: center">
-        <img
+  <body>
+    <div class="wave" id="x1"></div>
+    <div class="container">
+      <h1>
+        <!-- <img
           src="assets/img/logo.png"
           width="40"
           style="vertical-align: bottom"
-        />
-        <span
-          style="
-            text-shadow: -2px -2px 2px rgba(255, 255, 255, 0.1),
-              1px 1px 1px rgba(0, 0, 0, 0.5);
-          "
-          >bullet</span
-        >
+        /> -->
+        <span>-ORBIT-</span>
       </h1>
-      <canvas
-        id="canvas"
-        width="320"
-        height="480"
-        style="
-          max-width: 100%;
-          max-height: calc(100vh - 30px);
-          cursor: default;
-          background-color: #00bfff;
-        "
-      ></canvas>
+      <canvas id="canvas" width="320" height="480"></canvas>
       <script src="./app.js"></script>
-      <p
-        style="
-          text-align: center;
-          color: #fff;
-          font-size: 28px;
-          font-family: monospace;
-        "
-      >
-        click on screen<br />
-        to play
-      </p>
+      <button>CLICK ON SCREEN TO PLAY</button>
     </div>
   </body>
 </html>

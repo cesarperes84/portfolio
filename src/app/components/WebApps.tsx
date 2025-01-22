@@ -24,7 +24,7 @@ const WebApps = () => (
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-name">
-                  Web app que simula uma viagem de carro ao som de estações de
+                  Web app que simula carro ao som de estações de
                   rádios. 2021
                 </div>
                 <div className="project-category text-faded">

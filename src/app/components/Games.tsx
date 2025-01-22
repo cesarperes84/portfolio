@@ -13,30 +13,49 @@ const Games = () => (
         <p className="md:text-xl font-mono font-bold">GAMES</p>
       </div>
       <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
-      {/* <div className="w-full md:w-1/3">
+        
+        <div className="w-full md:w-1/3">
           <div
-            onClick={() =>
-              window.open("/8bit-pong/index.html", "_blank")
-            }
+            onClick={() => window.open("/bullet/index.html", "_blank")}
             className="portfolio-box"
           >
             <img
-              src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1732219610/portfolio/pong-8bit"
+              src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1733882189/portfolio/bullet"
               className="img-responsive"
               alt="Connnect.io"
             />
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-name">
-                  Pong 8 BIT. 2023
+                  Web game para acertar o alvo que gira descontroladamente. 2021
                 </div>
                 <div className="project-category text-faded">
-                  Layout, HTML, CSS, Javascript, Websocket, Canvas
+                  Layout, HTML, CSS, Javascript, Canvas
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
+        <div className="w-full md:w-1/3">
+          <div
+            onClick={() => window.open("/8bit-pong/index.html", "_blank")}
+            className="portfolio-box"
+          >
+            <img
+              src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1732219610/portfolio/pong-8bit"
+              className="img-responsive"
+              alt="8bit Pong"
+            />
+            <div className="portfolio-box-caption">
+              <div className="portfolio-box-caption-content">
+                <div className="project-name">Pong 8 BIT. 2022</div>
+                <div className="project-category text-faded">
+                  Layout, HTML, CSS, Javascript, Canvas
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="w-full md:w-1/3">
           <div
             onClick={() =>
@@ -107,7 +126,6 @@ const Games = () => (
             </div>
           </div>
         </div>
-
         <div className="w-full md:w-1/3">
           <div
             onClick={() => window.open("bee/index.html", "_blank")}
