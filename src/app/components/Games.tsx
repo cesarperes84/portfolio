@@ -14,7 +14,7 @@ const Games = () => (
       </div>
       <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
         
-        <div className="w-full md:w-1/3">
+        {/* <div className="w-full md:w-1/3">
           <div
             onClick={() => window.open("/bullet/index.html", "_blank")}
             className="portfolio-box"
@@ -35,8 +35,8 @@ const Games = () => (
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full md:w-1/3">
+        </div> */}
+        {/* <div className="w-full md:w-1/3">
           <div
             onClick={() => window.open("/8bit-pong/index.html", "_blank")}
             className="portfolio-box"
@@ -55,7 +55,7 @@ const Games = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="w-full md:w-1/3">
           <div
             onClick={() =>
