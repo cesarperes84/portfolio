@@ -99,10 +99,10 @@ const WebSites = () => (
             <div className="portfolio-box-caption">
               <div className="portfolio-box-caption-content">
                 <div className="project-name">
-                  Website de Cupons de Descontos. 2012
+                  Website de Cupons de Descontos. 2025
                 </div>
                 <div className="project-category text-faded">
-                  LAYOUT, HTML5, CSS, JQuery, PHP, MYSQL
+                  Layout, HTML, CSS, Javascript, NextJs, ReactJs, TailwindCss
                 </div>
               </div>
             </div>
