@@ -87,7 +87,7 @@ const WebSites = () => (
         <div className="w-full md:w-1/3">
           <div
             onClick={() =>
-              window.open("http://www.esocomprar.com.br", "_blank")
+              window.open("https://www.esocomprar.com.br", "_blank")
             }
             className="portfolio-box"
           >
