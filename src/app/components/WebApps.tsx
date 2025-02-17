@@ -13,6 +13,29 @@ const WebApps = () => (
       <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
         <div className="w-full md:w-1/3">
           <div
+            onClick={() => window.open("https://gamemood.vercel.app/", "_blank")}
+            className="portfolio-box"
+          >
+            <img
+              src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1739818764/portfolio/game-mood"
+              className="img-responsive"
+              alt=""
+            />
+            <div className="portfolio-box-caption">
+              <div className="portfolio-box-caption-content">
+                <div className="project-name">
+                  Web app que gera sugestões do que jogar com base no seu humor. 2025
+                </div>
+                <div className="project-category text-faded">
+                  Layout, HTML, CSS, Javascript, NextJs, ReactJs, TailwindCss
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full md:w-1/3">
+          <div
             onClick={() => window.open("http://street5.vercel.app", "_blank")}
             className="portfolio-box"
           >
