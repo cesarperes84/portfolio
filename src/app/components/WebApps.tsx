@@ -13,7 +13,7 @@ const WebApps = () => (
       <div className="flex flex-wrap gap-x-0 gap-y-4 font-mono w-full md:-ml-4">
         <div className="w-full md:w-1/3">
           <div
-            onClick={() => window.open("https://gamemood.vercel.app/", "_blank")}
+            onClick={() => window.open("https://game4today.com/", "_blank")}
             className="portfolio-box"
           >
             <img
