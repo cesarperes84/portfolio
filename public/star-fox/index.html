@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Fox</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <div class="hud top">
+    <div class="top-left">
+      <div class="brand">
+        <div class="fox-logo" aria-hidden="true">
+          <span class="fox-ear left"></span>
+          <span class="fox-ear right"></span>
+          <span class="fox-face"></span>
+          <span class="fox-snout"></span>
+        </div>
+        <div>
+          <strong>SPACE FOX</strong>
+        </div>
+      </div>
+
+      <div class="dialog mission-mini">
+        <div class="avatar"></div>
+        <div>
+          <strong id="title">MISSION START</strong>
+          <p id="message">Use WASD ou setas para pilotar. Espaço atira. Shift acelera e Q/E faz barrel roll.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="shield-meter">
+        <small>Shield</small>
+        <div class="shield-bar"><span id="shieldFill"></span></div>
+        <strong id="shield">100%</strong>
+      </div>
+      <div class="stats-list plain">
+        <div class="stat-stack"><small>Score</small><strong id="score">0</strong></div>
+        <div class="stat-stack"><small>Nível</small><strong id="wave">1</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hud bottom">
+    <div class="keys" aria-label="Controles do jogo">
+      <span>WASD / Setas</span>
+      <span>Espaço: tiro</span>
+      <span>Shift: acelerar</span>
+      <span>Q / E: giro</span>
+      <span>P: pausa</span>
+    </div>
+  </div>
+
+  <div id="start" class="screen">
+    <div class="panel">
+      <h1>SPACE FOX</h1>
+      <p>Protótipo arcade low poly com boost, rajadas inimigas, barrel roll e coleta de anéis/moedas.</p>
+      <button id="startBtn">START MISSION</button>
+    </div>
+  </div>
+
+  <div id="gameOver" class="screen hidden">
+    <div class="panel">
+      <h1>GAME OVER</h1>
+      <p id="finalScore">Score: 0</p>
+      <button id="restartBtn">RESTART</button>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
